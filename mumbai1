@@ -7,3 +7,24 @@ as this is not sufficiant for a devops course to be study by a candidates
 >>>>>>> 0dc05560354ba5768bcaa8e4d25006f3b72e14f4
 what is your name
 my name is something that could be taken by a person who knows devops
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="login.php" method="POST" autocomplete="off">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+
